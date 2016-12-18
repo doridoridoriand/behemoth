@@ -1,0 +1,5 @@
+.p#vertical {
+  writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  -weblit-weriting-mode: vertical-rl;
+}
