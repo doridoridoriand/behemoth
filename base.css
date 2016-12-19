@@ -1,6 +1,7 @@
 @font-face {
   font-famiry: 'Yumincho';
-  src: url(/home/dorian/works/yumincho/yumin.ttf);
+  src: url(file:///home/dorian/works/yumincho/yumin.woff);
+  src: local('Yu Mincho')
 }
 
 body {
@@ -11,7 +12,9 @@ p.vertical {
   writing-mode: vertical-rl;
   -ms-writing-mode: tb-rl;
   -weblit-weriting-mode: vertical-rl;
+  -moz-writing-mode: vertical-rl;
   font-size: 2em;
   color: #fff;
   margin-left: auto;
+  font-family: Yumincho;
 }
