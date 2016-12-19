@@ -1,5 +1,17 @@
-.p#vertical {
+@font-face {
+  font-famiry: 'Yumincho';
+  src: url(/home/dorian/works/yumincho/yumin.ttf);
+}
+
+body {
+  font-family: Yumincho;
+}
+
+p.vertical {
   writing-mode: vertical-rl;
   -ms-writing-mode: tb-rl;
   -weblit-weriting-mode: vertical-rl;
+  font-size: 2em;
+  color: #fff;
+  margin-left: auto;
 }
